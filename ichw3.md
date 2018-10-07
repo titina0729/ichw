@@ -4,4 +4,5 @@
 
 ## 2.结构
 ###### ![cache](https://github.com/titina0729/ichw/blob/master/1.png)
+###### L1在CPU内， L2在L1和内存之间
 ## 3.工作原理
