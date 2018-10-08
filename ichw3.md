@@ -4,5 +4,5 @@
 
 ## 2.结构
 ![cache](https://github.com/titina0729/ichw/blob/master/1.png)
-
+![cache](https://github.com/titina0729/ichw/blob/master/1.png)
 ## 3.工作原理
