@@ -36,3 +36,18 @@ cache的容量很小，其能够保存的内容只是内存内容的一个子集
 cache的工作原理要求其保存最新数据，当内存向cache传送一个新块，但cache的可用位置已经被占满时，就会产生cache替换的问题。替换问题与其组织方式紧密相关，对**直接映射cache**来说，只要把可用位置上的主存块患处cache即可；对全相联和组相联cache来说，要从若干个可用位置中国年选取一个位置，将其中的主存块换出cache。常用的替换算法有以下三种
 
 #### 3.与主存保持一致
+由于cache的内容知识主存内容的一个子集，应当与贮存内容保持，而CPU对cache的写入更改了cache的内容，为此，可选用操作策略使cache内容与贮存内容保持一致。
+##### 1.写回法（Write-Back）
+###### 当CPU写cache命中时，指修改cache的内容，而不是立即写入主存；只有当此块被换出时才被写回主存。
+###### 这种方法显著减少了访问主存的次数，但是存在数据不一致的隐患。
+
+##### 2.全写法（Write-Tthrough）
+###### 当写cache命中时，cache与主存同时发生写修改。
+###### cache与
+##### 3.写一次法（rite-Once）
+
+
+参考：
+https://blog.csdn.net/baidu_35679960/article/details/78610804
+http://share.onlinesjtu.com/mod/tab/view.php?id=206
+https://blog.csdn.net/czxyhll/article/details/7960140
