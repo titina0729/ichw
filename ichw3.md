@@ -4,5 +4,6 @@
 
 ## 2.结构
 ![cache](https://github.com/titina0729/ichw/blob/master/1.png)
-![cache](https://github.com/titina0729/ichw/blob/master/1.png)
+###### cache的结构与内存相似，由地址和内容组成，但是不同于内存的是，cache line中包含着tag，valid以及data三个部分，也就是说，cache所储存的内容不仅有data（数据），还有相应的内容在内存中的地址信息（tag），除此之外为了加快寻找速度，一般还包含着一个有效位（valid）用来标记该cache line是否包含着有效的数据。一个tag，一个valid和一个data构成了一个cache line。
+###### 
 ## 3.工作原理
