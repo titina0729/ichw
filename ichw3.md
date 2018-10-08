@@ -3,6 +3,6 @@
 ###### 又称cache，是位于CPU与内存之间的容量较小但速度很快的存储器，可保存CPU刚使用过或循环使用的部分数据，如果CPU需要再次使用该数据，那么就不用从内存重新调动该部分数据而是从cache中直接调用，这样就避免了重复存取数据，降低了CPU等待时间，提高了系统效率。（缓解处理数据的两端速度不匹配带来的时间上的浪费）
 
 ## 2.结构
-###### ![cache](https://github.com/titina0729/ichw/blob/master/1.png)
-###### L1在CPU内， L2在L1和内存之间
+![cache](https://github.com/titina0729/ichw/blob/master/1.png)
+
 ## 3.工作原理
