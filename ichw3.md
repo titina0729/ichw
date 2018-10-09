@@ -48,6 +48,6 @@ cache的工作原理要求其保存最新数据，当内存向cache传送一个�
 ###### 是基于写回法病结合全写法的操作策略，写命中与写为命中的处理方法与写回法基本相同，知识第一次命中要同时写入主存，以便于维护系统全部cache的一致性。
 
 参考：
-https://blog.csdn.net/baidu_35679960/article/details/78610804
-http://share.onlinesjtu.com/mod/tab/view.php?id=206
-https://blog.csdn.net/czxyhll/article/details/7960140
+##### https://blog.csdn.net/baidu_35679960/article/details/78610804
+##### http://share.onlinesjtu.com/mod/tab/view.php?id=206
+##### https://blog.csdn.net/czxyhll/article/details/7960140
